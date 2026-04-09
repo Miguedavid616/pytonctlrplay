@@ -73,6 +73,22 @@
 #def multiplicar(a):
 #   return a*2
 #resultado = multiplicar(2)
+#importando o modulo math
+import math
+#o modulo os permite interagir com o sistema operacional
+import calculo
+print(calculo.soma(5, 5))
+print(calculo.divisao(5, 5))
+print(calculo.multiplicacao(5, 5))
+ print(calculo.subtracao(5, 5))
+#Funçao usada para calcular potencia
+print(math.pow(5,5))
+#arredonda para cima
+print(math.ceil(4.1))
+#arredonda para baixo
+print(math.floor(4.8))
+#arredonda para o inteiro mais proximo
+print(math.trunc(3.2))
 
 
   
